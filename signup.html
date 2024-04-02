@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <link
@@ -20,44 +20,49 @@
     />
 
     <link rel="stylesheet" href="signup.css" />
-</head>
-<body>
+  </head>
+  <body>
     <section class="signup">
-        <div class="signup_bg">
-          <h1 class="signup_text">Signup</h1>
-          <form class="signup_inputs">
-            <input
-              type="email"
-              id="email"
-              class="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
-              <input
-              type="password"
-              id="password"
-              class="password"
-              name="password"
-              placeholder="Password"
-              minlength="6"
-              maxlength="20"
-              required
-            />
-            <div class="checkbox"><label class="container">Man
-              <input type="checkbox" required>
+      <div class="signup_bg">
+        <h1 class="signup_text">Signup</h1>
+        <form class="signup_inputs">
+          <input
+            type="email"
+            id="email"
+            class="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            class="password"
+            name="password"
+            placeholder="Password"
+            minlength="6"
+            maxlength="20"
+            required
+          />
+          <div class="checkbox">
+            <label class="container"
+              >Man
+              <input type="radio" required name="main" />
               <span class="checkmark"></span>
             </label>
-            
-            <label class="container">Woman
-              <input type="checkbox" required>
+
+            <label class="container"
+              >Woman
+              <input type="radio" required name="main" />
               <span class="checkmark"></span>
-            </label></div>
-            <input type="submit" value="Signup" class="submit"/>
-          </form>
-            
-            
-            <p class="to_login">Already have an account? <a href="login.html">Login</a></p>
+            </label>
+          </div>
+          <input type="submit" value="Signup" class="submit" />
+        </form>
+
+        <p class="to_login">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
         <div class="or">
           <div class="hr"></div>
           <p>Or</p>
@@ -71,7 +76,7 @@
           <i class="fa-brands fa-google"></i>
           <p>Login with Google</p>
         </div>
-        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
